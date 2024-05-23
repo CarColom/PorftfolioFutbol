@@ -1,0 +1,60 @@
+.screen {
+  position: relative;
+  overflow: hidden;
+  background-image: url("../../assets/img/Hola.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+#logo {
+  position: absolute;
+  top: 20%; 
+  transform: translateX(-50%);
+  max-width: 18vw; 
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  #logo {
+    position: absolute;
+    left: 25%;
+    top: 20%; 
+    transform: translateX(-50%);
+    max-width: 50vw;
+    z-index: 1; 
+  }
+  .screen {
+    background-size: cover; 
+    height: 100vh;
+  }
+ 
+}
+
+.screen {
+  overflow: hidden;
+  border-radius: 100%;
+  animation: grow 5.5s forwards;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: scale(1);
+    border-radius: 0%;
+  }
+  90% {
+    transform: scale(1);
+    border-radius: 0%;
+  }
+  100% {
+    transform: scale(0);
+    transform-origin: 50% 50%;
+    border-radius: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+/* Perfil.css */
+.rotating-icon {
+    display: inline-block;
+    animation: rotate 2s linear infinite;
+    margin-right: 8px;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
