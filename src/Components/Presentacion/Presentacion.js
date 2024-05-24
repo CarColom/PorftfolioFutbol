@@ -12,10 +12,13 @@ const Presentacion = () => {
       <div className="w-full md:w-1/2 p-6 text-center md:text-left flex justify-center md:justify-end items-center">
         <Fade direction="up">
           <div className="bg-black bg-opacity-50 text-white max-w-lg p-6 rounded-lg">
-            <h1 className="text-4xl font-bold mb-4">Juan Ingacio Cettou</h1>
+            <h1 className="text-4xl font-bold mb-4">Juan Ignacio Cettou</h1>
             <div className="text-lg space-y-2">
               <p className="text-lg md:text-xl font-Libre-Baskerville text-white mb-4">
-                Con una visión de juego excepcional y un talento incomparable, este volante mixto es la personificación del liderazgo y la técnica. Su habilidad para filtrar pases, ejecutar penales y trabajar en equipo lo convierten en un activo invaluable para cualquier equipo. Su dominio del balón, juego aéreo y capacidad para manejar la presión lo hacen destacar en cada encuentro. Además, su destreza frente al arco garantiza goles y asistencias. ¡Prepárate para presenciar su magia en el campo de juego!
+              Talentoso mediocampista con excelente visión de juego y liderazgo.
+                Capacidad para filtrar pases, ejecutar penales y trabajar en equipo.  
+                Su dominio del balón, juego aéreo y manejo de la presión lo hacen destacar en cada encuentro. 
+                Además, su destreza frente al arco garantiza goles y asistencias.
               </p>
             </div>
           </div>
