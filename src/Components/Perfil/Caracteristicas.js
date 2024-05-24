@@ -23,7 +23,7 @@ const Caracteristicas = () => {
             img: playerImg2,
             texts: [
               { title: "Liderazgo", description: "Capacidad para inspirar y motivar a los compañeros, tomando la iniciativa en momentos cruciales del partido." },
-              { title: "Personalidad", description: "Presencia fuerte en el campo, mostrando confianza y determinación en cada acción." }
+              { title: "Personalidad", description: "Presencia fuerte en el campo, muestra confianza y determinación en cada acción." }
             ]
           },
           {
@@ -47,7 +47,7 @@ const Caracteristicas = () => {
                 <div className="md:w-1/2 p-2 bg-black bg-opacity-50 text-white">
                 {texts.map(({ title, description }, idx) => (
                   <div key={idx}>
-                    <h3 className="font-semibold mb-2"><div className="rotating-icon">⚽</div> {title}</h3>
+                    <h3 className="font-semibold mb-2 mt-2"><div className="rotating-icon">⚽</div> {title}</h3>
                     <p className="text-1xl ">{description}</p>
                   </div>
                 ))}
