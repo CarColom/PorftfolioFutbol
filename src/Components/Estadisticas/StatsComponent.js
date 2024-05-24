@@ -6,7 +6,7 @@ const StatsComponent = ({ goals, Match, minutedPlayed, assist }) => {
   return (
     <div className="stats-container p-8">
       <div className="text-center mb-6 bg-white bg-opacity-50">
-        <h2 className="text-3xl font-bold text-black ">Estadísticas</h2>
+        <h2 className="text-3xl font-bold text-black ">Estadísticas - Temporada 2024</h2>
       </div>
       <div className="">
         <div className="stat-item flex flex-col items-center ">
